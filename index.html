@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Personal Dashboard</title>
+</head>
+<body>
+<div id="content1">
+    <header>
+        <h1 id="intro"></h1>
+    </header>
+    <nav>
+        <div class="weather base">
+            <h3>Weather</h3>
+            <h5>Pathankot, PB</h5>
+            <img src="sun.png" alt="">
+            <p>20°C</p>
+        </div>
+        <div class="stocks base">
+            <h3>Stocks to watch</h3>
+            <div class="tsla singleStock">
+                <p><b>TSLA</b></p>
+                <p style="color:red">-1.48%</p>
+                <p>Listed in: NYSE</p>
+            </div>
+            <div class="aapl singleStock">
+                <p><b>AAPL</b></p>
+                <p style = "color:green">+0.81%</p>
+                <p>Listed in: NYSE</p>
+            </div>
+            <div class="meta singleStock">
+                <p><b>META</b></p>
+                <p style= "color:green">+0.8%</p>
+                <p>Listed in: NYSE</p>
+            </div>
+            <div class="paytm singleStock">
+                <p><b>PAYTM</b></p>
+                <p style="color:red">-2.12%</p>
+                <p>Listed in: BSE</p>
+            </div>
+        </div>
+        <div class="toDo base">
+            <h3>To-Do</h3>
+            <img src="plus.png" alt=""><p>Add Task</p>
+        </div>
+    </nav>
+</div>
+</body>
+<script src="app.js"></script>
+</html>
