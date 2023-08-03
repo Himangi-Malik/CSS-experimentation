@@ -1,2 +1,2 @@
 # CSS-experimentation
-This is me messing around with css
+This is me messing around with CSS
